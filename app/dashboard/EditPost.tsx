@@ -5,7 +5,7 @@ import Image from "next/image";
 import { useState } from "react";
 import Toggle from "./Toggle";
 import axios from "axios";
-import { toast, Toast } from "react-hot-toast";
+import { toast } from "react-hot-toast";
 
 type EditProps = {
   id: string;

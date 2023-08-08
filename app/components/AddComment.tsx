@@ -3,7 +3,7 @@
 import React, { useState } from "react";
 import { useMutation, useQueryClient } from "@tanstack/react-query";
 import axios, { AxiosError } from "axios";
-import { Toast, toast } from "react-hot-toast";
+import { toast } from "react-hot-toast";
 
 type PostProps = {
   id?: string;
