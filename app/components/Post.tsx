@@ -8,7 +8,7 @@ type PostProps = {
   name: string;
   postTitle: string;
   id: string;
-  comments: string | any[];
+  comments: undefined | any[];
 };
 
 export default function Post({

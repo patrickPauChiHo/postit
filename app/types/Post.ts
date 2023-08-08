@@ -6,10 +6,12 @@ export type PostType = {
     name: string;
     image: string;
   };
-  Comment?: {
-    createdAt: string;
-    id: string;
-    postId: string;
-    userId: string;
-  }[];
+  Comment?:
+    | {
+        createdAt: string;
+        id: string;
+        postId: string;
+        userId: string;
+      }[]
+    | undefined;
 };
